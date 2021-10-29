@@ -7,6 +7,7 @@
 from flask import Flask, jsonify, request
 app = Flask(__name__)
 
+# List of Products
 lstProducts = [{'soap':'nirma','biscuit':'nutrichoice'}]
 
 @app.route('/product/')
